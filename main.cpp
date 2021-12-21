@@ -40,14 +40,6 @@ DriveMsg *msg_ptr = &msg;
 
 float motorValues[ARRAY_LEN]={0.56,-0.86};
 
-void setup() {
-  
-}
-
-void loop() {
-  
-}
-
 #ifdef SLAVE
 void readMsg(DriveMsg *message, HardwareSerial& mySerial){
   uint8_t inc_byte;
